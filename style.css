@@ -3,8 +3,3 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
-.images{
-    display: flex;
-    height: 200px;
-    max-width: 200px;
-}
