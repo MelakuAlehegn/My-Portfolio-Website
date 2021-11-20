@@ -1,5 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap');
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(37, 36, 36);
+
 }
+.main{
+    margin-bottom: 0px;
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    /* background: rgb(0, 0, 0); */
+}
+
+.main-nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+} 
+.main-nav img{
+    height: 64px;
+}
+.main-nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+.main-nav ul li:hover{
+    transform: scale(1.02);   
+}
+.main-nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+.main-nav ul li a:hover{
+    color: orangered;
+}
+.showcase{
+    margin: 220px 100px 90px 100px;
+    color: rgb(255, 255, 255);
+}
+.showcase span{
+    color: orangered;
+
+}
+.showcase a{
+    color: rgb(0, 0, 0);
+    /* margin: 40px 0px; */
+    padding: 12px 10px;
+    background: rgb(197, 173, 173);
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer ul{
+    display: flex;
+    padding-left: 90px;
+}
+.footer ul li{
+    list-style: none;
+    margin: 0 12px;
+}
+.footer ul li .fab{
+    font-size: 30px;
+    line-height: 60px;
+    color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+.footer ul li .fab:hover{
+    transform: translate(0, -2px);
+}
+
+ 
