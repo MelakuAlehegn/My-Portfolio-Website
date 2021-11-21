@@ -6,6 +6,6 @@ icon.onclick = function () {
         icon.innerHTML = 'W'
     }
     else {
-        icon.innerHTML = ''
+        icon.innerHTML = 'w'
     }
 }
