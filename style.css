@@ -26,6 +26,7 @@ body{
 }
 .logo{
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .main-nav{
@@ -45,16 +46,18 @@ body{
     margin: 10px 15px;
 }
 .main-nav ul li:hover{
-    transform: scale(1.02);   
+    transform: scale(1.02);
 }
 .main-nav ul li a{
     text-decoration: none;
     font-weight: bold;
     color: var(--secondary-color);
+    padding: 12px 4px;
 
 }
 .main-nav ul li a:hover{
     color: orangered;
+    border-bottom: orangered 3px solid;   
 }
 .fa-sun{
     font-size: 16px;
@@ -100,7 +103,7 @@ body{
 }
 .showcase a{
     color: var(--primary-color);
-    /* margin: 40px 0px; */
+    margin-top: 40px;
     padding: 12px 10px;
     background: var(--secondary-color);
     text-decoration: none;
