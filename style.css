@@ -110,6 +110,10 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+.about p{
+    line-height: 1.5;
+}
+
 .footer ul{
     display: flex;
     padding-left: 90px;
