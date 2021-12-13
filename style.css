@@ -28,7 +28,6 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
-
 .main-nav{
     display: flex;
     width: 80%;
@@ -55,7 +54,8 @@ body{
     padding: 12px 4px;
 
 }
-.main-nav ul li a:hover{
+.main-nav a:hover,
+.main-nav a:focus{
     color: orangered;
     border-bottom: orangered 3px solid;   
 }
@@ -82,10 +82,12 @@ body{
     color: orangered;
 }
 
-.showcase{
+.showcase, .contact{
     margin: 110px 400px 90px 100px;
+    /* margin: auto; */
+    /* max-width: 600px; */
     color: var(--secondary-color);
-    border: var(--secondary-color) 1px solid;
+    /* border: var(--secondary-color) 1px solid; */
     padding: 22px 0px 32px 22px;
     border-radius: 12px;
 }
@@ -93,18 +95,18 @@ body{
     color: orangered;
 
 }
-.showcase h1 {
+.showcase, .contact h1 {
     font-weight: bolder;
     font-size: 50px;
 }
-.showcase p{
+.showcase, .contact p{
     font-weight: 500;
     font-size: 18px;
 }
-.showcase a{
+.showcase .btn-cv{
     color: var(--primary-color);
-    margin-top: 40px;
-    padding: 12px 10px;
+    /* margin-top: 40px; */
+    padding: 16px 10px;
     background: var(--secondary-color);
     text-decoration: none;
     border-radius: 5px;
