@@ -12,81 +12,103 @@
 </head>
 
 <body class="dark-mode">
-    <header>
-        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-dark">\
-            <div class="container">
-            <a href="#" class="navbar-brand">Melaku</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="main_nav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link"  href="#">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">PORTFOLIO</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">CONTACT ME</a></li>
-                    <i class="fas fa-sun"></i>
-                </ul>
+    <div>
+        <div class="bd-example">
+            <nav id="navbar-example2" class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark px-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#AboutMe">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Portfolio">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+                tabindex="0">
+                <div class="showcase">
+                    <h1 id="Home">I'm <span>Melaku</span> Alehegn</h1>
+                    <p>This is my Portfolio Website to showcase my work as a Full-stack Web Developer.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione autem dolore esse porro eum quod
+                        est
+                        accusamus iusto enim amet! Dolor adipisci voluptas vero provident odio quas molestias corrupti
+                        pariatur.</p>
+                    <br>
+                    <a class="btn-cv" href="javascript:void(0);"
+                        onclick="javascipt:window.open('images/MelakuAlehegnResume_4.pdf');">Download My CV</a>
+                </div>
+                <div class="showcase about">
+                    <h1 id="AboutMe">About Me</h1>
+                    <p>I'm a Full stack Web Developer Dedicated to create and utilaze modern web apps. I love to learn
+                        by
+                        doing
+                        projects. I beleive soft-skill techniques are as relevant as technical skills for any developer.
+                    </p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur facilis numquam est
+                        consequuntur
+                        similique, repellat commodi obcaecati quasi aperiam, et quidem, tenetur inventore a. Officiis ex
+                        a
+                        porro
+                        esse aspernatur.</p>
+                </div>
+                <div class="showcase portfolio">
+                    <h6 id="Portfolio">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi consequuntur autem laborum
+                            nemo eos
+                            placeat! Ullam repellat officia fuga quia officiis distinctio vel quas nam optio ipsa?
+                            Blanditiis, autem
+                            sint.</p>
+                    </h6>
+                </div>
+                <div class="contact">
+                    <div class="form">
+                        <h3 id="ContactMe">Send Me Email</h3>
+                        <form>
+                            <p>
+                                <label for="Name">Name</label>
+                                <input type="text">
+                            </p>
+                            <p>
+                                <label for="email">Email</label>
+                                <input type="email">
+                            </p>
+                            <p>
+                                <label for="Phone">Phone Number</label>
+                                <input type="text">
+                            </p>
+                            <p>
+                                <label for="Company">Company</label>
+                                <input type="text">
+                            </p>
+                            <p class="full">
+                                <label for="message">Message</label>
+                                <textarea name="Message"></textarea>
+                            </p>
+                            <p class="full">
+                                <button type="button" class="button">Submit</button>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="address">
+                        <h3>Contact Me</h3>
+                        <ul>
+                            <li>+251-931-495-535</li>
+                            <li>melakualehegn34@gmail.com</li>
+
+                        </ul>
+                    </div>
+                </div>
             </div>
-            </div>
-        </nav>
-    </header>
-    <div class="showcase">
-        <h1>I'm <span>Melaku</span> Alehegn</h1>
-        <p>This is my Portfolio Website to showcase my work as a Full-stack Web Developer.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione autem dolore esse porro eum quod est accusamus iusto enim amet! Dolor adipisci voluptas vero provident odio quas molestias corrupti pariatur.</p>
-        <br>
-        <a class="btn-cv" href="javascript:void(0);"
-            onclick="javascipt:window.open('images/MelakuAlehegnResume_4.pdf');">Download My CV</a>
-    </div>
-<div class="showcase about">
-    <h1>About Me</h1>
-    <p>I'm a Full stack Web Developer Dedicated to create and utilaze modern web apps. I love to learn by doing projects. I beleive soft-skill techniques are as relevant as technical skills for any developer.</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur facilis numquam est consequuntur similique, repellat commodi obcaecati quasi aperiam, et quidem, tenetur inventore a. Officiis ex a porro esse aspernatur.</p>
-</div>
-<div class="portfolio">
-    <h1>My Portfolio</h1>
-</div>
-    <div class="contact">
-        <div class="form">
-            <h3>Send Me Email</h3>
-            <form>
-                <p>
-                    <label for="Name">Name</label>
-                    <input type="text">
-                </p>
-                <p>
-                    <label for="email">Email</label>
-                    <input type="email">
-                </p>
-                <p>
-                    <label for="Phone">Phone Number</label>
-                    <input type="text">
-                </p>
-                <p>
-                    <label for="Company">Company</label>
-                    <input type="text">
-                </p>
-                <p class="full">
-                    <label for="message">Message</label>
-                    <textarea name="Message"></textarea>
-                </p>
-                <p class="full">
-                    <button type="button" class="button">Submit</button>
-                </p>
-            </form>
+
         </div>
-        <div class="address">
-            <h3>Contact Me</h3>
-            <ul>
-                <li>+251-931-495-535</li>
-                <li>melakualehegn34@gmail.com</li>
-
-            </ul>
-        </div>
-
     </div>
-
+    </div>
     <div class="footer">
         <ul>
             <li><a href="https://www.linkedin.com/in/melakualehegn/" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -96,6 +118,10 @@
         </ul>
     </div>
     <script src="main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script href="js/bootstrap.min.js"></script>
+
+
 </body>
 
 </html>

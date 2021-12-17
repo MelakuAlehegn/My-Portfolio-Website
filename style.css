@@ -62,21 +62,21 @@ body{
     color: orangered;
     border-bottom: orangered 3px solid;   
 } */
-.nav-item a:hover{
+/* .nav-item a:hover{
     background-color: rgb(46, 153, 180);
-    border-radius: 12px;
+     border-radius: 2px; 
     transition: background-color 1s ease-out; 
 
 }
 .nav-item a:focus{
     background-color: rgb(46, 153, 180);
-    border-radius: 2px;
+     border-radius: 2px;
     transition: background-color 1s ease-out; 
 
-}
-.nav-item {
+} */
+/* .nav-item {
     margin-left: 12px;
-}
+} */
 .fa-sun{
     font-size: 16px;
     color: var(--secondary-color);
@@ -125,10 +125,10 @@ body{
 }
 .btn-cv:hover{
     background-color: rgb(46, 153, 180);
-    transition: background-color 1s ease-out; 
+    transition: background-color 0.5s ease-out; 
 
 }
-.contact{
+/* .contact{
     width: 50%;
     display: grid;
     grid-gap: 20px;
@@ -136,7 +136,7 @@ body{
     grid-template-rows: repeat(2,500px);
     /* max-width: 800px; */
 
-}
+
 .address{
     margin-right: 30px;
     padding: 12px auto;
