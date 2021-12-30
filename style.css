@@ -6,10 +6,10 @@
 }
 :root{
    --primary-color: #000106;
-    --secondary-color: #fff;
+    --secondary-color: azure;
 }
 .dark-theme{
-    --primary-color:#edf2fc;
+    --primary-color:azure;
     --secondary-color: #212121;   
 }
 body{
@@ -69,10 +69,11 @@ body{
     font-size: 18px;    
 }
 .showcase .btn{
-    padding: 16px 10px;
+    padding: 0.5em 0.5em;
     color: var(--primary-color);
     background-color: var(--secondary-color);
     border: none;
+    font-size: 1em;
 }
 .showcase .btn:hover{
     background-color: #20588a;
@@ -101,6 +102,10 @@ body{
 .address ul, .address h3{
     text-align: center;
     margin: 0 0 1rem 0;
+    color: var(--secondary-color);
+}
+.head{
+    color: orangered;
 }
 .contact form{
     display: grid;
